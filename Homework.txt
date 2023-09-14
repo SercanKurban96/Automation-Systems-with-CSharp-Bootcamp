@@ -1,0 +1,7 @@
+Bir Time iþlemi gerçekleþtirmenizi istiyorum fakat Almanya saatine göre
+Son gönderim tarihi 17.09.2023
+Ödev yapýldýktan sonra GitHub'a atýlacak.
+Mail adresi olarak academyakm0@gmail.com
+
+GÜNCELLEME
+Bir firmaya giren ve çýkan personelin giriþ ve çýkýþ saatine göre mesai verilecektir. Mesai ücreti saatlik 50 TL'dir. Personel mesaiye kaldý mý kalmadý mý kontrolü yapýlacaktýr ve þirketimiz Almanya saatine göre çalýþmaktadýr. Kaç saat mola verildi?
