@@ -1,0 +1,5 @@
+Benzin istasyonumuz var. Benzin istasyonumuzda 2 adet alanýmýz var. Bunlar 1- Kasa ve 2- Market Kasaya girilen verileri excel dosyasýnda alt alta yazmanýzý istiyorum. Ayný zamanda yazýlan verileri toplamanýzý istiyorum. Market kýsmýnda 4 adet ürünümüz var, örneðin çikolata, bisküvi, su gibi... Öncelikle bu da excel dosyasýnda yazýlacak petrol sahibi bu 4 ürünü listeleyebilecek. Ayný zamanda kasiyer de bu 4 ürünü satacak. Satýlan her ürün excel tablosunda görülecek.
+
+Kasa - Market - Ýþveren olacak.
+Kasa dediðimizde örneðin bir ürünün fiyatýný girince excel'de altýna yazdýracak.
+Market dediðimizde 4 ürün olacak. Fiyatlar önceden belirlenecek. Kullanýcý bir bisküvi sattý. 1 dediði zaman 1 yazýlacak. 2 dediði zaman 2 ile çarpýlacak.
