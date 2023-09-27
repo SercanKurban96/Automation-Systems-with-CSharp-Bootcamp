@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace UserLogin
@@ -15,7 +16,7 @@ namespace UserLogin
             int accessFailedCount = 0;
             DateTime? lastAccessFailedTime = null;
 
-            while (accessFailedCount < 2)
+            while (accessFailedCount < 3)
             {
                 Console.Write("Enter Your Username: ");
                 string username = Console.ReadLine();
@@ -37,13 +38,16 @@ namespace UserLogin
                 else
                 {
                     accessFailedCount++;
-                    Console.WriteLine("Access Denied! Login Remaining: " + (2 - accessFailedCount));
+                    Console.WriteLine("Access Denied! Login Remaining: " + (3 - accessFailedCount));
                     lastAccessFailedTime = DateTime.Now;
                 }
             }
-            if (accessFailedCount >= 2)
+            if (accessFailedCount >= 3)
             {
-                Console.WriteLine("Your account has been blocked.");
+                Console.WriteLine("Your account has been blocked. The program will terminate within 2 seconds.");
+                Thread.Sleep(2000);
+                Console.Beep();
+                Environment.Exit(0);              
             }
             Console.ReadLine();
         }

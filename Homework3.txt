@@ -1,0 +1,1 @@
+Bir hatýrlatma otomasyonu gerçekleþtirilecek. Otomasyonumuzda tabpage kullanýlacak. tabpage1: yapacaðýn iþlemleri yazacaksýn. Ýþleme bir de ad vereceksin. tabpage2: Yapacaðýn iþlemin adý sýralanacak daha sonra yaptým eklenip. Alt kýsýmda click özellikleri olarak yaptým butonu: listboxtan o iþi silecek.

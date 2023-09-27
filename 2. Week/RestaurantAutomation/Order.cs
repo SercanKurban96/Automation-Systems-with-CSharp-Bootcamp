@@ -27,6 +27,5 @@ namespace RestaurantAutomation
         {
             Console.WriteLine("Total Account: " + TotalPrice);
         }
-
     }
 }
