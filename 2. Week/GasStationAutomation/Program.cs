@@ -135,6 +135,7 @@ namespace GasStationAutomation
                 worksheet.Cell(1, 2).Value = "Product Name";
                 worksheet.Cell(1, 3).Value = "Product Price";
                 worksheet.Cell(1, 4).Value = "Product Piece";
+                worksheet.Cell(1, 5).Value = "Total";
 
                 for (int i = 0; i < products.Count; i++)
                 {
@@ -143,6 +144,7 @@ namespace GasStationAutomation
                     worksheet.Cell(i + 2, 2).Value = product.ProductName;
                     worksheet.Cell(i + 2, 3).Value = product.ProductPrice;
                     worksheet.Cell(i + 2, 4).Value = product.ProductPiece;
+                    worksheet.Cell(i + 2, 5).Value = product.Calculate();
 
                     workbook.SaveAs("Products.xlsx");
                     Console.WriteLine("The products have been successfully added to the Excel file.");
